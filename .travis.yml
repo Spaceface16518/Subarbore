@@ -1,0 +1,13 @@
+language: go
+
+go:
+  - 1.12.x
+
+env:
+  global:
+    - GO111MODULE=on
+
+os:
+  - linux
+  - osx
+  - windows
